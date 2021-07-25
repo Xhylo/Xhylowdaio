@@ -64,7 +64,7 @@ if (document.querySelector('html[snippets]')){
     getsnippets()
 }
 function getsnippets(){
-    fetch("/snippets.json", {
+    fetch("https://doggybootsy.github.io/snippets.json", {
         cache: "no-cache",
     }).then(response=>response.json()).then(data=>{
         document.querySelector('html[snippets] main').innerHTML = ''
