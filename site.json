@@ -1,0 +1,12 @@
+{
+    "main": {
+        "version": {
+            "num": 2.1,
+            "date": "7/23/21"
+        }
+    },
+    "banner": {
+        "show": false,
+        "snippets": ["Scrollbars will be coming, but theres no ETA"]
+    }
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Whitney';
+    src: url('Whitney-Medium.eot');
+    src: local('Whitney Medium Regular'), local('Whitney-Medium'),
+        url('Whitney-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Whitney-Medium.woff2') format('woff2'),
+        url('Whitney-Medium.woff') format('woff'),
+        url('Whitney-Medium.ttf') format('truetype'),
+        url('Whitney-Medium.svg#Whitney-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

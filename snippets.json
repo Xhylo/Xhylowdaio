@@ -1,0 +1,111 @@
+{
+    "aomluh": {
+        "name": "avatar only memberslist until hover",
+        "author": "Xyhlo",
+        "css": [".membersWrap-2h-GB4 {\r\n  min-width: unset;\r\n}\r\n.membersWrap-2h-GB4 .members-1998pB {\r\n  max-width: 65px;\r\n  min-width: 65px;\r\n  -webkit-transition: .3s ease;\r\n  transition: .3s ease;\r\n}\r\n.membersWrap-2h-GB4 .members-1998pB:hover {\r\n  max-width: 240px;\r\n  min-width: 240px;\r\n}\r\n.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:not(:hover) {\r\n  padding-top: 10px;\r\n}\r\n.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:not(:hover) .membersGroup-v9BXpm {\r\n  height: 0px;\r\n  padding: 0%;\r\n}"],
+        "scss": [".membersWrap-2h-GB4{\r\n    min-width: unset;\r\n    .members-1998pB{\r\n        max-width: 65px;\r\n        min-width: 65px;\r\n        transition: .3s ease;\r\n        &:hover{\r\n            max-width: 240px;\r\n            min-width: 240px;\r\n        }\r\n        .content-3YMskv:not(:hover){\r\n            padding-top: 10px;\r\n            .membersGroup-v9BXpm{\r\n                height: 0px;\r\n                padding: 0%;\r\n            }\r\n        }\r\n    }\r\n}"]
+    },
+    "chittms": {
+        "name": "Change the inbox to the mention symbol",
+        "author": "Xyhlo",
+        "css": [".iconWrapper-2OrFZ1 path[d=\"M19 3H4.99C3.88 3 3.01 3.89 3.01 5L3 19C3 20.1 3.88 21 4.99 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3ZM19 15H15C15 16.66 13.65 18 12 18C10.35 18 9 16.66 9 15H4.99V5H19V15Z\"]{\r\n    d: path(\"M 12 2 C 6.486 2 2 6.486 2 12 C 2 17.515 6.486 22 12 22 C 14.039 22 15.993 21.398 17.652 20.259 L 16.521 18.611 C 15.195 19.519 13.633 20 12 20 C 7.589 20 4 16.411 4 12 C 4 7.589 7.589 4 12 4 C 16.411 4 20 7.589 20 12 V 12.782 C 20 14.17 19.402 15 18.4 15 L 18.398 15.018 C 18.338 15.005 18.273 15 18.209 15 H 18 C 17.437 15 16.6 14.182 16.6 13.631 V 12 C 16.6 9.464 14.537 7.4 12 7.4 C 9.463 7.4 7.4 9.463 7.4 12 C 7.4 14.537 9.463 16.6 12 16.6 C 13.234 16.6 14.35 16.106 15.177 15.313 C 15.826 16.269 16.93 17 18 17 L 18.002 16.981 C 18.064 16.994 18.129 17 18.195 17 H 18.4 C 20.552 17 22 15.306 22 12.782 V 12 C 22 6.486 17.514 2 12 2 Z M 12 14.599 C 10.566 14.599 9.4 13.433 9.4 11.999 C 9.4 10.565 10.566 9.399 12 9.399 C 13.434 9.399 14.6 10.565 14.6 11.999 C 14.6 13.433 13.434 14.599 12 14.599 Z\");\r\n}"],        
+        "scss": [".iconWrapper-2OrFZ1 path[d=\"M19 3H4.99C3.88 3 3.01 3.89 3.01 5L3 19C3 20.1 3.88 21 4.99 21H19C20.1 21 21 20.1 21 19V5C21 3.89 20.1 3 19 3ZM19 15H15C15 16.66 13.65 18 12 18C10.35 18 9 16.66 9 15H4.99V5H19V15Z\"]{\r\n    d: path(\"M 12 2 C 6.486 2 2 6.486 2 12 C 2 17.515 6.486 22 12 22 C 14.039 22 15.993 21.398 17.652 20.259 L 16.521 18.611 C 15.195 19.519 13.633 20 12 20 C 7.589 20 4 16.411 4 12 C 4 7.589 7.589 4 12 4 C 16.411 4 20 7.589 20 12 V 12.782 C 20 14.17 19.402 15 18.4 15 L 18.398 15.018 C 18.338 15.005 18.273 15 18.209 15 H 18 C 17.437 15 16.6 14.182 16.6 13.631 V 12 C 16.6 9.464 14.537 7.4 12 7.4 C 9.463 7.4 7.4 9.463 7.4 12 C 7.4 14.537 9.463 16.6 12 16.6 C 13.234 16.6 14.35 16.106 15.177 15.313 C 15.826 16.269 16.93 17 18 17 L 18.002 16.981 C 18.064 16.994 18.129 17 18.195 17 H 18.4 C 20.552 17 22 15.306 22 12.782 V 12 C 22 6.486 17.514 2 12 2 Z M 12 14.599 C 10.566 14.599 9.4 13.433 9.4 11.999 C 9.4 10.565 10.566 9.399 12 9.399 C 13.434 9.399 14.6 10.565 14.6 11.999 C 14.6 13.433 13.434 14.599 12 14.599 Z\");\r\n}"]
+    },
+    "cs": {
+        "name": "Compacted searchbar",
+        "author": "Xyhlo",
+        "css": [".toolbar-1t6TWx .search-36MZv- {\r\n  order: -1;\r\n}\r\n.toolbar-1t6TWx .search-36MZv- .iconContainer-O4O2CN {\r\n  bottom: 4px;\r\n}\r\n.toolbar-1t6TWx .search-36MZv- .iconContainer-O4O2CN .icon-3cZ1F_ {\r\n  transition: all 0.6s ease;\r\n}\r\n.toolbar-1t6TWx .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {\r\n  width: 28px;\r\n  transition: all 0.6s ease-in-out;\r\n  background: none;\r\n}\r\n.toolbar-1t6TWx .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb .icon-3cZ1F_ {\r\n  color: var(--interactive-normal);\r\n  height: 23px;\r\n  width: 23px;\r\n}\r\n.toolbar-1t6TWx .search-36MZv- .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {\r\n  width: 240px;\r\n  background: var(--background-tertiary);\r\n  transition: all 0.6s ease-in-out;\r\n}\r\n.toolbar-1t6TWx .search-36MZv- .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb .icon-3cZ1F_ {\r\n  height: 16px;\r\n  width: 16px;\r\n  top: 4px;\r\n}"],
+        "scss": [".toolbar-1t6TWx{\r\n    .search-36MZv- {\r\n        order: -1;\r\n        .iconContainer-O4O2CN{\r\n            bottom: 4px;\r\n            .icon-3cZ1F_{\r\n                transition: all 0.6s ease;\r\n            }\r\n        }\r\n        .search-2oPWTC{\r\n            &:not(.open-6_Y_aH) .searchBar-3dMhjb {\r\n                width: 28px;\r\n                transition: all 0.6s ease-in-out;\r\n                background: none;\r\n                .icon-3cZ1F_{\r\n                    color:var(--interactive-normal);\r\n                    height: 23px;\r\n                    width: 23px;\r\n                }\r\n            }\r\n            &.open-6_Y_aH .searchBar-3dMhjb{\r\n                width: 240px;\r\n                background: var(--background-tertiary);\r\n                transition: all 0.6s ease-in-out;\r\n                .icon-3cZ1F_{\r\n                    height: 16px;\r\n                    width: 16px;\r\n                    top:4px;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"]
+    },
+    "fi": {
+        "name": "Faded indicators",
+        "author": "Xyhlo",
+        "css": [".unreadTop-3rAB3r{\r\n    width:240px;\r\n    border-radius: 0 !important;\r\n    padding: 0;\r\n}\r\n.unreadTop-3rAB3r .bar-30k2ka:not(.mention-1f5kbO){\r\n    border-radius: 0 !important;\r\n    background: linear-gradient(var(--background-accent), transparent);\r\n    box-shadow: none;\r\n}\r\n.unreadTop-3rAB3r .bar-30k2ka.mention-1f5kbO{\r\n    border-radius: 0 !important;\r\n    background: linear-gradient(#f04747, transparent);\r\n    box-shadow: none;\r\n}\r\n.unreadBottom-1_LF_w {\r\n    width:240px;\r\n    border-radius: 0 !important;\r\n    padding:0;\r\n}\r\n.unreadBottom-1_LF_w  .bar-30k2ka:not(.mention-1f5kbO){\r\n    border-radius: 0px  !important;\r\n    background: linear-gradient(0deg, var(--background-accent), transparent);\r\n    box-shadow: none;\r\n}\r\n.unreadBottom-1_LF_w  .bar-30k2ka.mention-1f5kbO{\r\n    border-radius: 0 !important;\r\n    background: linear-gradient(0deg, #f04747, transparent);\r\n    box-shadow: none;\r\n}\r\n.unreadMentionsIndicatorBottom-2mDYbI{\r\n    padding:0px;\r\n    height:24px;\r\n}\r\n.unreadMentionsIndicatorBottom-2mDYbI .unreadMentionsBar-1Bu1dC{\r\n    border-radius: 0px !important;\r\n    background: linear-gradient(0deg, #f04747, transparent);\r\n}\r\n.unreadMentionsIndicatorTop-2-tcdU{\r\n    padding:0px;\r\n    height:24px;\r\n}\r\n.unreadMentionsIndicatorTop-2-tcdU .unreadMentionsBar-1Bu1dC{\r\n    border-radius: 0 !important;\r\n    background: linear-gradient(#f04747, transparent);\r\n}"],
+        "scss": [".unreadTop-3rAB3r{\r\n    width:240px;\r\n    border-radius: 0 !important;\r\n    padding: 0;\r\n    .bar-30k2ka{\r\n        border-radius: 0 !important;\r\n        background: linear-gradient(var(--background-accent), transparent);\r\n        box-shadow: none;\r\n        &.mention-1f5kbO{\r\n            border-radius: 0 !important;\r\n            background: linear-gradient(#f04747, transparent);\r\n            box-shadow: none;\r\n        }\r\n    }\r\n}\r\n.unreadBottom-1_LF_w {\r\n    width:240px;\r\n    border-radius: 0 !important;\r\n    padding:0;\r\n    .bar-30k2ka{\r\n        border-radius: 0px  !important;\r\n        background: linear-gradient(0deg, var(--background-accent), transparent);\r\n        box-shadow: none;\r\n        &.mention-1f5kbO{\r\n            border-radius: 0 !important;\r\n            background: linear-gradient(0deg, #f04747, transparent);\r\n            box-shadow: none;\r\n        }\r\n    }\r\n}\r\n.unreadMentionsIndicatorBottom-2mDYbI{\r\n    padding:0px;\r\n    height:24px;\r\n    .unreadMentionsBar-1Bu1dC{\r\n        border-radius: 0px !important;\r\n        background: linear-gradient(0deg, #f04747, transparent);\r\n    }\r\n}\r\n.unreadMentionsIndicatorTop-2-tcdU{\r\n    padding:0px;\r\n    height:24px;\r\n    .unreadMentionsBar-1Bu1dC{\r\n        border-radius: 0 !important;\r\n        background: linear-gradient(#f04747, transparent);\r\n    }    \r\n}"]
+    },
+    "mjatpbjtpb": {
+        "name": "Mobile jump to present barmobile jump to present bar",
+        "author": "Xyhlo",
+        "css": [".jumpToPresentBar-G1R9s6 {\r\n  visibility: hidden;\r\n  bottom: 15px;\r\n}\r\n.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d {\r\n  visibility: visible;\r\n  padding: 2px;\r\n  background-color: var(--background-tertiary);\r\n  border-radius: 50%;\r\n  transform: scale(1.7);\r\n}\r\n.jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d:hover, .jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d:focus {\r\n  opacity: .4;\r\n}"],
+        "scss": [".jumpToPresentBar-G1R9s6{\r\n    visibility: hidden;\r\n    bottom:15px;\r\n    .barButtonIcon-3t4V3d{\r\n        visibility: visible;\r\n        padding:2px;\r\n        background-color: var(--background-tertiary);\r\n        border-radius: 50%;\r\n        transform: scale(1.7);\r\n        &:hover, &:focus{\r\n            opacity: .4;\r\n        }\r\n    }\r\n}"]
+    },
+    "rfff": {
+        "name": "Remove file from form",
+        "author": "Xyhlo",
+        "css": [".attachWrapper-2TRKBi{\r\n  display:none;\r\n}"],
+        "scss": [".attachWrapper-2TRKBi{\r\n  display:none;\r\n}"]
+    },
+    "rgtff": {
+        "name": "Remove gift from form",
+        "author": "Xyhlo",
+        "css": [".buttons-3JBrkn>[aria-label][tabindex]{\r\n    display:none;\r\n}"],
+        "scss": [".buttons-3JBrkn>[aria-label][tabindex]{\r\n    display:none;\r\n}"]
+    },
+    "rgff": {
+        "name": "Remove gif from form",
+        "author": "Xyhlo",
+        "css": [".buttons-3JBrkn>[aria-label][tabindex]+.buttonContainer-28fw2U{\r\n    display:none;\r\n}"],
+        "scss": [".buttons-3JBrkn>[aria-label][tabindex]+.buttonContainer-28fw2U{\r\n    display:none;\r\n}"]
+    },
+    "rsff": {
+        "name": "Remove stickers from form",
+        "author": "Xyhlo",
+        "css": [".stickerButton-3OEgwj{\r\n  display:none;\r\n}"],
+        "scss": [".stickerButton-3OEgwj{\r\n  display:none;\r\n}"]
+    },
+    "reff": {
+        "name": "Remove emoji from form",
+        "author": "Xyhlo",
+        "css": [".emojiButton-pET4wH{\r\n  display:none;\r\n}"],
+        "scss": [".emojiButton-pET4wH{\r\n  display:none;\r\n}"]
+    },
+    "msbab": {
+        "name": "Make switches be a button",
+        "author": "Xyhlo",
+        "css": [".container-3auIfb {\r\n  width: 20px;\r\n  height: 20px;\r\n  background: transparent !important;\r\n}\r\n.container-3auIfb .slider-TkfMQL {\r\n  left: -6px !important;\r\n}\r\n.container-3auIfb .slider-TkfMQL > rect {\r\n  height: 20px !important;\r\n  width: 20px !important;\r\n  x: 4px !important;\r\n  y: 0px !important;\r\n  rx: 5;\r\n  fill: var(--background-tertiary);\r\n}"],
+        "scss": [".container-3auIfb {\r\n  width: 20px;\r\n  height: 20px;\r\n  background: transparent !important;\r\n}\r\n.container-3auIfb .slider-TkfMQL {\r\n  left: -6px !important;\r\n}\r\n.container-3auIfb .slider-TkfMQL > rect {\r\n  height: 20px !important;\r\n  width: 20px !important;\r\n  x: 4px !important;\r\n  y: 0px !important;\r\n  rx: 5;\r\n  fill: var(--background-tertiary);\r\n}"]
+    },
+    "phb": {
+        "name": "Pin home button",
+        "author": "Xyhlo",
+        "css": [".guilds-1SWlCJ .tree-2wKJdG:focus {\r\n  outline-color: transparent;\r\n}\r\n.guilds-1SWlCJ .scroller-1Bvpku {\r\n  contain: unset;\r\n  margin-top: 56px;\r\n}\r\n.guilds-1SWlCJ .scroller-1Bvpku .powerclock + .tutorialContainer-2sGCg9 {\r\n  position: fixed;\r\n  transform: translate3d(0, -76px, 0);\r\n}\r\n.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {\r\n  position: fixed;\r\n  transform: translate3d(0, -56px, 0);\r\n}"],
+        "scss": [".guilds-1SWlCJ{\r\n    .tree-2wKJdG:focus {\r\n        outline-color: transparent;\r\n    }\r\n    .scroller-1Bvpku{\r\n        contain: unset;\r\n        margin-top: 56px;\r\n        .powerclock+.tutorialContainer-2sGCg9{\r\n            position: fixed;\r\n            transform: translate3d(0, -76px, 0);\r\n        }\r\n        .tutorialContainer-2sGCg9{\r\n            position: fixed;\r\n            translate3d(0, -56px, 0);\r\n        }\r\n    }\r\n}"]
+    },
+    "rbm": {
+        "name": "Remove Blocked messages",
+        "author": "Xyhlo",
+        "css": ["[class^=\"groupStart-\"]{\r\n    display:none;\r\n}"],
+        "scss": ["[class^=\"groupStart-\"]{\r\n    display:none;\r\n}"]
+    },
+    "rst": {
+        "name": "Remove slowmode text",
+        "author": "Xyhlo",
+        "css": [".cooldownWrapper-3joyFc {\r\n  font-size: 0;\r\n}\r\n.cooldownWrapper-3joyFc .slowModeIcon-1BPDC_ {\r\n  margin: 0;\r\n}"],
+        "scss": [".cooldownWrapper-3joyFc{\r\n    font-size: 0;\r\n    .slowModeIcon-1BPDC_{\r\n        margin: 0;\r\n    }\r\n}"]
+    },
+    "phi": {
+        "name": "Pin home icon",
+        "author": "Xyhlo",
+        "css": [".tutorialContainer-2sGCg9 {\r\n    position: sticky;\r\n    z-index: 10;\r\n    background-color: var(--background-tertiary);\r\n    padding: 5px 0;\r\n    box-shadow: 0 0 10px 10px var(--background-tertiary);\r\n    margin-bottom: 10px;\r\n}"],
+        "scss": [".tutorialContainer-2sGCg9 {\r\n    position: sticky;\r\n    z-index: 10;\r\n    background-color: var(--background-tertiary);\r\n    padding: 5px 0;\r\n    box-shadow: 0 0 10px 10px var(--background-tertiary);\r\n    margin-bottom: 10px;\r\n}"]
+    },
+    "cmmbh": {
+        "name": "Change mention message background hue",
+        "author": "Xyhlo",
+        "css": [":root {\r\n    --mention-hue: 187;\r\n}\r\n\r\n.mentioned-xhSam7 .repliedMessage-VokQwo:before{\r\n    border-color:hsla(var(--mention-hue), 73%, 46%);\r\n}\r\n.mentioned-xhSam7,.menu-3sdvDG,.mouse-mode.full-motion .mentioned-xhSam7:hover,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z{\r\n  background-color:hsla(var(--mention-hue), 73%, 46%,0.1);\r\n}\r\n.mentioned-xhSam7:before,.menu-3sdvDG:before{\r\n  background-color:hsla(var(--mention-hue), 73%, 46%);\r\n}"],
+        "scss": [":root {\r\n    --mention-hue: 187;\r\n}\r\n\r\n.mentioned-xhSam7 .repliedMessage-VokQwo:before{\r\n    border-color:hsla(var(--mention-hue), 73%, 46%);\r\n}\r\n.mentioned-xhSam7,.menu-3sdvDG,.mouse-mode.full-motion .mentioned-xhSam7:hover,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z{\r\n  background-color:hsla(var(--mention-hue), 73%, 46%,0.1);\r\n}\r\n.mentioned-xhSam7:before,.menu-3sdvDG:before{\r\n  background-color:hsla(var(--mention-hue), 73%, 46%);\r\n}"]
+    },
+    "bbt": {
+        "name": "Better bot tags",
+        "author": "Xyhlo",
+        "css": [".botTag-2WPJ74 {\r\n  padding-right: 0;\r\n  background: transparent;\r\n}\r\n.botTag-2WPJ74 .botText-1526X_ {\r\n  padding-right: 3px;\r\n  padding-left: 3px;\r\n  border-radius: 4px;\r\n  background: var(--brand-experiment);\r\n}\r\n.botTag-2WPJ74 .botText-1526X_:not(:only-child) {\r\n  display: none;\r\n}\r\n.botTag-2WPJ74 .botTagVerified-1klIIt {\r\n  border-radius: 50%;\r\n  -webkit-mask-image: url(\"data:image\/svg+xml,%3Csvg viewBox='0 0 16 15.2' fill='none' xmlns='http:\/\/www.w3.org\/2000\/svg'%3E%3Cpath d='m16 7.6c0 .79-1.28 1.38-1.52 2.09s.44 2 0 2.59-1.84.35-2.46.8-.79 1.84-1.54 2.09-1.67-.8-2.47-.8-1.75 1-2.47.8-.92-1.64-1.54-2.09-2-.18-2.46-.8.23-1.84 0-2.59-1.54-1.3-1.54-2.09 1.28-1.38 1.52-2.09-.44-2 0-2.59 1.85-.35 2.48-.8.78-1.84 1.53-2.12 1.67.83 2.47.83 1.75-1 2.47-.8.91 1.64 1.53 2.09 2 .18 2.46.8-.23 1.84 0 2.59 1.54 1.3 1.54 2.09z' fill='white'\/%3E%3C\/svg%3E%0A\");\r\n  -webkit-mask-repeat: no-repeat;\r\n  -webkit-mask-size: 15px;\r\n  background: var(--brand-experiment);\r\n}\r\n.botTag-2WPJ74.botTag-3W9SuW .botText-1526X_ {\r\n  padding-left: 4px;\r\n}"],
+        "scss": [".botTag-2WPJ74 {\r\n\tpadding-right: 0;\r\n\tbackground: transparent;\r\n\t.botText-1526X_ {\r\n\t\tpadding-right: 3px;\r\n\t\tpadding-left: 3px;\r\n\t\tborder-radius: 4px;\r\n\t\tbackground: var(--brand-experiment);\r\n\t\t&:not(:only-child) {\r\n\t\t\tdisplay: none;\r\n\t\t}\r\n\t}\r\n\t&.botTag-3W9SuW .botText-1526X_ {\r\n\t\tpadding-left: 4px;\r\n\t}\r\n\t.botTagVerified-1klIIt {\r\n\t\tborder-radius: 50%;\r\n\t\t-webkit-mask-image: url(\"data:image\/svg+xml,%3Csvg viewBox='0 0 16 15.2' fill='none' xmlns='http:\/\/www.w3.org\/2000\/svg'%3E%3Cpath d='m16 7.6c0 .79-1.28 1.38-1.52 2.09s.44 2 0 2.59-1.84.35-2.46.8-.79 1.84-1.54 2.09-1.67-.8-2.47-.8-1.75 1-2.47.8-.92-1.64-1.54-2.09-2-.18-2.46-.8.23-1.84 0-2.59-1.54-1.3-1.54-2.09 1.28-1.38 1.52-2.09-.44-2 0-2.59 1.85-.35 2.48-.8.78-1.84 1.53-2.12 1.67.83 2.47.83 1.75-1 2.47-.8.91 1.64 1.53 2.09 2 .18 2.46.8-.23 1.84 0 2.59 1.54 1.3 1.54 2.09z' fill='white'\/%3E%3C\/svg%3E%0A\");\r\n\t\t-webkit-mask-repeat: no-repeat;\r\n\t\t-webkit-mask-size: 15px;\r\n\t\tbackground: var(--brand-experiment);\r\n\t}\r\n}"]
+    },
+    "fml": {
+        "name": "Fake message logger",
+        "author": "Xyhlo",
+        "css": ["path[d=\"M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88001L5.73596 8.46501L4.32196 9.88001L8.56496 14.122L2.90796 19.778L4.32196 21.192L9.97896 15.536L14.222 19.778L15.636 18.364L14.222 16.95L19.171 12H19.172L20.586 13.414L22 12Z\"] {\r\n    d: path(\"M9.09044 19.3964C8.96752 19.1536 8.75336 19.1289 8.66669 19.1289C8.58002 19.1289 8.36585 19.1531 8.24919 19.3828L7.9296 20.012C7.66419 20.5362 6.88668 20.4784 6.70127 19.9263L6.00002 17.8562L5.55793 19.1638C5.31251 19.8881 4.62543 20.375 3.84959 20.375H3.33334C2.96501 20.375 2.66667 20.0813 2.66667 19.7188C2.66667 19.3562 2.96501 19.0625 3.33334 19.0625H3.84959C4.05084 19.0625 4.22918 18.9362 4.29293 18.7483L5.05085 16.5072C5.18835 16.1049 5.56918 15.8342 6.00002 15.8342C6.43085 15.8342 6.81168 16.1045 6.94877 16.5072L7.5271 18.2151C8.35002 17.5511 9.77961 17.8173 10.2771 18.7959C10.3559 18.9509 10.5059 19.0399 10.6671 19.0527V15.6845L16.0005 10.4718V8.5625H10.3334C9.78336 8.5625 9.33336 8.11953 9.33336 7.57812V2H1C0.445834 2 0 2.43887 0 2.98438V22.0156C0 22.5611 0.445834 23 1 23H15C15.5542 23 16 22.5611 16 22.0156V20.375L10.6667 20.3705C9.99503 20.3578 9.39252 19.9899 9.09044 19.3964V19.3964ZM16 6.9998C16 6.74141 15.8959 6.49121 15.7084 6.30664L11.6292 2.28711C11.4417 2.10254 11.1875 2 10.9209 2H10.6667V7.25H16V6.9998ZM12 16.2308V19.0625H14.8746L21.6113 12.386L18.783 9.60184L12 16.2308V16.2308ZM23.6892 8.86314L22.3613 7.55598C21.9471 7.14828 21.2751 7.14828 20.8609 7.55598L19.7255 8.67365L22.5538 11.4578L23.6892 10.3401C24.1038 9.93242 24.1038 9.27084 23.6892 8.86314Z\")\r\n}"],
+        "scss": ["path[d=\"M22 12L12.101 2.10101L10.686 3.51401L12.101 4.92901L7.15096 9.87801V9.88001L5.73596 8.46501L4.32196 9.88001L8.56496 14.122L2.90796 19.778L4.32196 21.192L9.97896 15.536L14.222 19.778L15.636 18.364L14.222 16.95L19.171 12H19.172L20.586 13.414L22 12Z\"] {\r\n    d: path(\"M9.09044 19.3964C8.96752 19.1536 8.75336 19.1289 8.66669 19.1289C8.58002 19.1289 8.36585 19.1531 8.24919 19.3828L7.9296 20.012C7.66419 20.5362 6.88668 20.4784 6.70127 19.9263L6.00002 17.8562L5.55793 19.1638C5.31251 19.8881 4.62543 20.375 3.84959 20.375H3.33334C2.96501 20.375 2.66667 20.0813 2.66667 19.7188C2.66667 19.3562 2.96501 19.0625 3.33334 19.0625H3.84959C4.05084 19.0625 4.22918 18.9362 4.29293 18.7483L5.05085 16.5072C5.18835 16.1049 5.56918 15.8342 6.00002 15.8342C6.43085 15.8342 6.81168 16.1045 6.94877 16.5072L7.5271 18.2151C8.35002 17.5511 9.77961 17.8173 10.2771 18.7959C10.3559 18.9509 10.5059 19.0399 10.6671 19.0527V15.6845L16.0005 10.4718V8.5625H10.3334C9.78336 8.5625 9.33336 8.11953 9.33336 7.57812V2H1C0.445834 2 0 2.43887 0 2.98438V22.0156C0 22.5611 0.445834 23 1 23H15C15.5542 23 16 22.5611 16 22.0156V20.375L10.6667 20.3705C9.99503 20.3578 9.39252 19.9899 9.09044 19.3964V19.3964ZM16 6.9998C16 6.74141 15.8959 6.49121 15.7084 6.30664L11.6292 2.28711C11.4417 2.10254 11.1875 2 10.9209 2H10.6667V7.25H16V6.9998ZM12 16.2308V19.0625H14.8746L21.6113 12.386L18.783 9.60184L12 16.2308V16.2308ZM23.6892 8.86314L22.3613 7.55598C21.9471 7.14828 21.2751 7.14828 20.8609 7.55598L19.7255 8.67365L22.5538 11.4578L23.6892 10.3401C24.1038 9.93242 24.1038 9.27084 23.6892 8.86314Z\")\r\n}"]
+    }
+}
+

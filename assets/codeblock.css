@@ -1,0 +1,8 @@
+pre code.hljs {
+    padding: 0 0 1rem 0;
+    background: transparent;
+    overflow-x: scroll;
+	display:block;
+}
+pre code.hljs::-webkit-scrollbar{display: none;}
+
